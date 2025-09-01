@@ -18,6 +18,7 @@ export default function Index() {
             <div className="hidden md:flex items-center space-x-6">
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
               <a href="#cases" className="text-foreground hover:text-primary transition-colors">Кейсы</a>
+              <a href="#development" className="text-foreground hover:text-primary transition-colors">Разработка</a>
               <a href="#about" className="text-foreground hover:text-primary transition-colors">О нас</a>
               <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
               <Button size="sm">Связаться</Button>
@@ -303,8 +304,176 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Development Section */}
+      <section id="development" className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-primary mb-4">Разработка защищенного ПО</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Создаем надежные решения с учетом современных требований информационной безопасности
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Технологический стек</h3>
+              <div className="space-y-4">
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-center space-x-3">
+                      <Icon name="Globe" className="h-8 w-8 text-primary" />
+                      <div>
+                        <h4 className="font-semibold">Web-приложения</h4>
+                        <p className="text-sm text-muted-foreground">React, Angular, Vue.js</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-center space-x-3">
+                      <Icon name="Server" className="h-8 w-8 text-primary" />
+                      <div>
+                        <h4 className="font-semibold">Backend</h4>
+                        <p className="text-sm text-muted-foreground">Node.js, Python, Go, Java</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-center space-x-3">
+                      <Icon name="Smartphone" className="h-8 w-8 text-primary" />
+                      <div>
+                        <h4 className="font-semibold">Мобильные приложения</h4>
+                        <p className="text-sm text-muted-foreground">React Native, Flutter</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-center space-x-3">
+                      <Icon name="Database" className="h-8 w-8 text-primary" />
+                      <div>
+                        <h4 className="font-semibold">Базы данных</h4>
+                        <p className="text-sm text-muted-foreground">PostgreSQL, MongoDB, Redis</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-semibold mb-6">Принципы безопасности</h3>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <Icon name="ShieldCheck" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Security by Design</h4>
+                    <p className="text-muted-foreground text-sm">Безопасность закладывается на этапе проектирования</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <Icon name="Lock" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Zero Trust Architecture</h4>
+                    <p className="text-muted-foreground text-sm">Проверка каждого запроса и пользователя</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <Icon name="FileCheck" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Secure Code Review</h4>
+                    <p className="text-muted-foreground text-sm">Многоуровневая проверка кода на уязвимости</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <Icon name="RefreshCw" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">DevSecOps</h4>
+                    <p className="text-muted-foreground text-sm">Интеграция безопасности в CI/CD процессы</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3">
+                  <Icon name="Bug" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold">Penetration Testing</h4>
+                    <p className="text-muted-foreground text-sm">Регулярное тестирование на проникновение</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-primary/5 p-8 rounded-lg">
+            <h3 className="text-2xl font-semibold mb-4 text-center">Примеры наших разработок</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <Icon name="CreditCard" className="h-8 w-8 text-primary mb-2" />
+                  <CardTitle className="text-lg">Банковская система</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    Защищенная система онлайн-банкинга с многофакторной аутентификацией
+                  </p>
+                  <div className="flex flex-wrap gap-1">
+                    <Badge variant="outline" className="text-xs">2FA</Badge>
+                    <Badge variant="outline" className="text-xs">Encryption</Badge>
+                    <Badge variant="outline" className="text-xs">PCI DSS</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <Icon name="Building2" className="h-8 w-8 text-primary mb-2" />
+                  <CardTitle className="text-lg">Корпоративный портал</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    Внутренняя система управления документами с контролем доступа
+                  </p>
+                  <div className="flex flex-wrap gap-1">
+                    <Badge variant="outline" className="text-xs">RBAC</Badge>
+                    <Badge variant="outline" className="text-xs">SSO</Badge>
+                    <Badge variant="outline" className="text-xs">Audit Log</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <Icon name="Shield" className="h-8 w-8 text-primary mb-2" />
+                  <CardTitle className="text-lg">SIEM система</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    Решение для мониторинга и анализа событий ИБ в реальном времени
+                  </p>
+                  <div className="flex flex-wrap gap-1">
+                    <Badge variant="outline" className="text-xs">ML</Badge>
+                    <Badge variant="outline" className="text-xs">Real-time</Badge>
+                    <Badge variant="outline" className="text-xs">Analytics</Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
-      <section id="about" className="py-20">
+      <section id="about" className="py-20 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
