@@ -13,7 +13,7 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Icon name="Shield" className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-primary">CyberGuard</span>
+              <span className="text-xl font-bold text-primary">SPK-SPECTRUM</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
