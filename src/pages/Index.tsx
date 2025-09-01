@@ -418,55 +418,55 @@ export default function Index() {
           </div>
 
           <div className="bg-primary/5 p-8 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-center">Примеры наших разработок</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-center">Наши возможности</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <Card>
                 <CardHeader>
-                  <Icon name="CreditCard" className="h-8 w-8 text-primary mb-2" />
-                  <CardTitle className="text-lg">Банковская система</CardTitle>
+                  <Icon name="Brain" className="h-8 w-8 text-primary mb-2" />
+                  <CardTitle className="text-lg">Машинное обучение</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Защищенная система онлайн-банкинга с многофакторной аутентификацией
+                    Разработка алгоритмов для анализа данных и предиктивной аналитики
                   </p>
                   <div className="flex flex-wrap gap-1">
-                    <Badge variant="outline" className="text-xs">2FA</Badge>
-                    <Badge variant="outline" className="text-xs">Encryption</Badge>
-                    <Badge variant="outline" className="text-xs">PCI DSS</Badge>
+                    <Badge variant="outline" className="text-xs">Python</Badge>
+                    <Badge variant="outline" className="text-xs">TensorFlow</Badge>
+                    <Badge variant="outline" className="text-xs">PyTorch</Badge>
                   </div>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <Icon name="Building2" className="h-8 w-8 text-primary mb-2" />
-                  <CardTitle className="text-lg">Корпоративный портал</CardTitle>
+                  <Icon name="Network" className="h-8 w-8 text-primary mb-2" />
+                  <CardTitle className="text-lg">Сетевые решения</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Внутренняя система управления документами с контролем доступа
+                    Проектирование и настройка современных сетевых архитектур
                   </p>
                   <div className="flex flex-wrap gap-1">
-                    <Badge variant="outline" className="text-xs">RBAC</Badge>
-                    <Badge variant="outline" className="text-xs">SSO</Badge>
-                    <Badge variant="outline" className="text-xs">Audit Log</Badge>
+                    <Badge variant="outline" className="text-xs">TCP/IP</Badge>
+                    <Badge variant="outline" className="text-xs">VPN</Badge>
+                    <Badge variant="outline" className="text-xs">Firewall</Badge>
                   </div>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardHeader>
-                  <Icon name="Shield" className="h-8 w-8 text-primary mb-2" />
-                  <CardTitle className="text-lg">SIEM система</CardTitle>
+                  <Icon name="Search" className="h-8 w-8 text-primary mb-2" />
+                  <CardTitle className="text-lg">OSINT исследования</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Решение для мониторинга и анализа событий ИБ в реальном времени
+                    Сбор и анализ информации из открытых источников
                   </p>
                   <div className="flex flex-wrap gap-1">
-                    <Badge variant="outline" className="text-xs">ML</Badge>
-                    <Badge variant="outline" className="text-xs">Real-time</Badge>
-                    <Badge variant="outline" className="text-xs">Analytics</Badge>
+                    <Badge variant="outline" className="text-xs">Social Media</Badge>
+                    <Badge variant="outline" className="text-xs">Web Mining</Badge>
+                    <Badge variant="outline" className="text-xs">Data Analysis</Badge>
                   </div>
                 </CardContent>
               </Card>
