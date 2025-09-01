@@ -106,16 +106,17 @@ export default function Index() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Icon name="Code2" className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Разработка ПО</CardTitle>
+                <CardTitle>Разработка ПО на основе ИИ</CardTitle>
                 <CardDescription>
-                  Создание защищенных приложений с учетом требований ИБ
+                  Разработка программного обеспечения на основе машинного обучения и компьютерных сетей
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm">
-                  <li>• Secure Development Lifecycle</li>
-                  <li>• Код-ревью на безопасность</li>
-                  <li>• Интеграция средств защиты</li>
+                  <li>• Алгоритмы машинного обучения</li>
+                  <li>• Нейронные сети и Deep Learning</li>
+                  <li>• Сетевые протоколы и архитектуры</li>
+                  <li>• Системы распределенных вычислений</li>
                 </ul>
               </CardContent>
             </Card>
