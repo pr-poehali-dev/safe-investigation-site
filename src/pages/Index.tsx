@@ -568,7 +568,7 @@ export default function Index() {
                 <CardContent className="p-6 text-center">
                   <Icon name="Mail" className="h-8 w-8 mx-auto mb-4 text-accent" />
                   <h3 className="font-semibold mb-2">Email</h3>
-                  <p>info@cyberguard.ru</p>
+                  <p>info@info@spc-spectrum.ru.</p>
                 </CardContent>
               </Card>
               <Card className="bg-primary-foreground/10 border-primary-foreground/20">
