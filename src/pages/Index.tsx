@@ -481,9 +481,7 @@ export default function Index() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-primary mb-4">О компании</h2>
-              <p className="text-lg text-muted-foreground">
-                Мы команда экспертов с многолетним опытом в области информационной безопасности
-              </p>
+              <p className="text-lg text-muted-foreground"></p>
             </div>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -561,7 +559,7 @@ export default function Index() {
                 <CardContent className="p-6 text-center">
                   <Icon name="Phone" className="h-8 w-8 mx-auto mb-4 text-accent" />
                   <h3 className="font-semibold mb-2">Телефон</h3>
-                  <p>+7 (495) 123-45-67</p>
+                  <p>?</p>
                 </CardContent>
               </Card>
               <Card className="bg-primary-foreground/10 border-primary-foreground/20">
@@ -575,7 +573,7 @@ export default function Index() {
                 <CardContent className="p-6 text-center">
                   <Icon name="MapPin" className="h-8 w-8 mx-auto mb-4 text-accent" />
                   <h3 className="font-semibold mb-2">Офис</h3>
-                  <p>Москва, ул. Тверская, 1</p>
+                  <p>?</p>
                 </CardContent>
               </Card>
             </div>
