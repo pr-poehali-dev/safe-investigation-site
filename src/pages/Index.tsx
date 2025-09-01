@@ -594,11 +594,10 @@ export default function Index() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Icon name="Shield" className="h-6 w-6" />
-              <span className="text-lg font-semibold">CyberGuard</span>
+              <span className="text-lg font-semibold">SPK-SPECTRUM
+</span>
             </div>
-            <div className="text-sm opacity-70">
-              © 2024 CyberGuard. Все права защищены.
-            </div>
+            <div className="text-sm opacity-70">© 2025 SPK-SPECTRUM. Все права защищены.</div>
           </div>
         </div>
       </footer>
