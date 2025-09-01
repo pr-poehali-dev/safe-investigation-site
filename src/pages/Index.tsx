@@ -488,34 +488,34 @@ export default function Index() {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-semibold mb-4">Наша экспертиза</h3>
+                <h3 className="text-2xl font-semibold mb-4">Наша команда</h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <Icon name="CheckCircle" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold">15+ лет опыта</h4>
-                      <p className="text-muted-foreground">в расследовании киберинцидентов</p>
+                      <h4 className="font-semibold">Молодая команда</h4>
+                      <p className="text-muted-foreground">с свежим взглядом на современные технологии</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Icon name="CheckCircle" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold">500+ успешных кейсов</h4>
-                      <p className="text-muted-foreground">различной сложности</p>
+                      <h4 className="font-semibold">Опытные специалисты</h4>
+                      <p className="text-muted-foreground">из различных отраслей и сфер деятельности</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Icon name="CheckCircle" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold">Международные сертификации</h4>
-                      <p className="text-muted-foreground">CISSP, CISM, CEH, GCFA</p>
+                      <h4 className="font-semibold">Мультидисциплинарный подход</h4>
+                      <p className="text-muted-foreground">кибербезопасность, психология, IT, право</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Icon name="CheckCircle" className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold">24/7 поддержка</h4>
-                      <p className="text-muted-foreground">при критических инцидентах</p>
+                      <h4 className="font-semibold">Инновационные методы</h4>
+                      <p className="text-muted-foreground">сочетание классических и современных подходов</p>
                     </div>
                   </div>
                 </div>
