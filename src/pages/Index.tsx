@@ -76,6 +76,7 @@ export default function Index() {
                   <li>• Анализ логов и цифровых следов</li>
                   <li>• Восстановление хронологии событий</li>
                   <li>• Подготовка экспертных заключений</li>
+                  <li>• OSINT-разведка по открытым источникам</li>
                 </ul>
               </CardContent>
             </Card>
@@ -83,18 +84,19 @@ export default function Index() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="ShieldAlert" className="h-6 w-6 text-primary" />
+                  <Icon name="Users" className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Аудит безопасности</CardTitle>
+                <CardTitle>Кадровый скрининг</CardTitle>
                 <CardDescription>
-                  Комплексная оценка уровня защищенности ИТ-инфраструктуры
+                  Комплексная оценка персонала с профайлингом и проверкой рисков
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm">
-                  <li>• Тестирование на проникновение</li>
-                  <li>• Анализ уязвимостей</li>
-                  <li>• Рекомендации по устранению</li>
+                  <li>• Полиграфические проверки</li>
+                  <li>• Профайлинг и поведенческий анализ</li>
+                  <li>• Оценка психоповеденческих моделей</li>
+                  <li>• OSINT-проверка кандидатов</li>
                 </ul>
               </CardContent>
             </Card>
